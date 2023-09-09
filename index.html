@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Zheng Peng | Homepage </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="./css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link rel="stylesheet" href="./css/main.min.css">
+		<!-- <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'> -->
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+		</script>
+	</head>
+	<body>
+		
+	<div class="header">
+		<div class="wrap">
+
+			<div class="logo">
+				<a href="index.html">HomePage</a>
+			</div>
+			
+			<div class="top-nav" >
+				<ul>
+					<li class="active"><a href="#me" class="scroll">Me</a></li>
+					<!-- <li><a href="#biography" class="scroll">Biography</a></li> -->
+					<li><a href="./publications.html">Publications</a></li>
+					<!-- <li><a href="./misc.html">Misc</a></li> -->
+				</ul>
+			</div>
+			<div class="clear"> </div>
+			
+	     </div>
+	</div>
+
+
+<!--主要内容开始-->
+	<div class="content">
+		<div class="grid1" id="me" style="background:url(images/banner333.jpg) no-repeat 0 0; background-position: center;">
+			<a href="#"><img src="./images/pzheng.jpg" title="zheng peng" /></a>
+			<h3>Zheng Peng</h3>
+            <h4>Phone: 18659168012 | Email: pzheng@xtu.edu.cn </h4>
+
+            <a href="#">
+            <img src="./images/google-scholar-logo.png" width="40"/></i>
+            </a>
+            <a href="https://github.com/pzheng4218">
+            <img src="./images/GitHub.png" width="40"/></i>
+            </a>
+			
+		</div>
+
+		<!--个人简介开始-->
+		<div class="grid2" id="biography">
+			<h3>Biography</h3>
+			<p>
+				Zheng Peng, professor and doctoral supervisor of the School of Mathematics and Computing Science, Xiangtan University. His current main research interests are manifold optimization problem algorithms and their applications in data science, satellite remote sensing data fusion, chip design and simulation and other fields of engineering optimization problems and Its efficient algorithm. Professor Peng Zheng received his Ph.D. from Shanghai University in 2008. He graduated from the Department of Mathematics of Nanjing University as a postdoctoral fellow in 2010 and was promoted to professor in 2013.
+			</p>
+		</div>
+		<!--个人简介结束-->
+		
+		<!--教育经历开始-->
+        <div class="grid2" id="biography">
+			<h3>Education</h3>
+
+            <ul>
+            <li> Ph.D. Operations Research and Cybernetics , Shanghai University , 2005-2008.
+            <li> M.S. Mathematics Education , Hunan Normal University , 2000-2003.
+			<!--  B.S.-->
+
+			</ul> 
+		</div>
+	
+		<!--研究兴趣开始-->
+        <div class="grid2" id="biography">
+			<h3>Research Interest</h3>
+
+            <ul>
+            <li> Linear and Nonlinear Programming Theory
+            <li> Algorithms and their applications
+            <li> Data-driven optimization models and algorithms
+            <li> Optimization problems and methods in machine learning (manifold learning)
+            <li> Deep Learning
+
+			</ul> 
+		</div>
+
+
+		<!--出版物内容开始-->
+		<div class="grid3" id="publication">
+
+			<div class="grid3-year"> <h3> Selected Publications <h3> </div>
+
+            <!------------------------------->
+            <div class="row">
+            <div class="grid3-content">
+                <div class="col-md-4">
+                     <center><a href="./pubs/imgs/peng2015.png"><img class="enlarge" src="./pubs/imgs/peng2015.png" width="300" style="border:1px solid black"></a></center>        
+                </div>
+
+                <div class="col-md-8">
+                    <h4><b>A proximal alternating direction method of multipliers for a minimization problem with nonconvex constraints</b></h4>
+                    <h5> <b>Zheng Peng</b>, Jianli Chen, Wenxing Zhu. Journal of Global Optimization 2015.</h5>
+                    <h6>   
+                        [<a href="./pubs/papers/peng2015.pdf">paper</a>] 
+                        <!-- [<a href="https://github.com/xxxx">code</a>] -->
+                    </h6>
+                </div>
+            </div>
+            </div>
+            <br>
+
+            <!------------------------------->
+            <div class="row">
+            <div class="grid3-content">
+                <div class="col-md-4">
+                     <center><a href="./pubs/imgs/peng2016.png"><img class="enlarge" src="./pubs/imgs/peng2016.png" width="300" style="border:1px solid black"></a></center>        
+                </div>
+
+                <div class="col-md-8">
+                    <h4><b>The robust constant and its applications in random global search for unconstrained global optimization</b></h4>
+                    <h5> <b>Zheng Peng </b>, Donghua Wu, Wenxing Zhu. Journal of Global Optimization 2016.</h5>
+                    <h6>   
+                        [<a href="./pubs/papers/peng2016.pdf">paper</a>] 
+                        <!-- [<a href="https://github.com/xxxx">code</a>] -->
+                    </h6>
+                </div>
+            </div>
+            </div>
+            <br>
+
+
+            <!------------------------------->
+            <div class="row">
+		    <div class="grid3-content">
+			    <div class="col-md-4">
+			         <center><a href="./pubs/imgs/2020_Face_Recognition.jpg"><img class="enlarge" src="./pubs/imgs/2020_Face_Recognition.jpg" width="300" style="border:1px solid black"></a></center>        
+			    </div>
+
+		        <div class="col-md-8">
+		            <h4><b>A Discriminative Projection and Representation-Based Classification Framework for Face Recognition</b></h4>
+		            <h5> Kangkang Deng,<b>Zheng Peng</b>,Wenxing Zhu. SIAM Journal on Imaging Sciences 2020.</h5>
+		            <h6>   
+		            	[<a href="./pubs/papers/2020_Face_Recognition.pdf">paper</a>] 
+		            	<!-- [<a href="https://github.com/xxxx">code</a>] -->
+		            </h6>
+		        </div>
+		    </div>
+		    </div>
+		    <br>
+
+            <!------------------------------->
+            <div class="row">
+            <div class="grid3-content">
+                <div class="col-md-4">
+                     <center><a href="./pubs/imgs/zhang2020.png"><img class="enlarge" src="./pubs/imgs/zhang2020.png" width="300" style="border:1px solid black"></a></center>        
+                </div>
+
+                <div class="col-md-8">
+                    <h4><b>A modulus-based nonmonotone line search method for nonlinear complementarity problems</b></h4>
+                    <h5> Zhang Xu, <b>Peng Zheng</b>. Applied Mathematics and Computation 2020.</h5>
+                    <h6>   
+                        [<a href="./pubs/papers/zhang2020.pdf">paper</a>] 
+                        <!-- [<a href="https://github.com/xxxx">code</a>] -->
+                    </h6>
+                </div>
+            </div>
+            </div>
+            <br>
+
+            <!------------------------------->
+            <div class="row">
+            <div class="grid3-content">
+                <div class="col-md-4">
+                     <center><a href="./pubs/imgs/deng2022.png"><img class="enlarge" src="./pubs/imgs/deng2022.png" width="300" style="border:1px solid black"></a></center>        
+                </div>
+
+                <div class="col-md-8">
+                    <h4><b>A manifold inexact augmented Lagrangian method for nonsmooth optimization on Riemannian submanifolds in Euclidean space</b></h4>
+                    <h5> Deng Kangkang, <b>Peng Zheng</b>. IMA Journal of Numerical Analysis 2022.</h5>
+                    <h6>   
+                        [<a href="./pubs/papers/dengkangkang2022.pdf">paper</a>] 
+                        <!-- [<a href="https://github.com/xxxx">code</a>] -->
+                    </h6>
+                </div>
+            </div>
+            </div>
+            <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>	
+		<!--出版物内容结束-->
+
+
+
+		<!--项目介绍开始-->
+        <div class="grid3-year"> <h3> Projects </h3> </div>
+		<div class="grid3">
+			<div class="grid3-content">
+	
+				<ul>
+					<li><h5>Host Projects:</h5>
+					<ul>
+                        <li> 国家自然科学基金面上项目，12071398，数据驱动广义Stiefel流形约束优化问题的算法及其应用研究，2021/01 - 2024/12, 60万，在研
+
+						<li> 国家自然科学基金面上项目，11571074，稀疏典型相关分析的快速算法及其在基因表达数据分析中的应用，2016/01-2019/12，59.6万元，结题
+
+						<li> 国家自然科学基金天元专项基金，11726505， 超大规模约束优化问题算法及其应用天元数学交流项目，2018/01-2018/12,28.0万元，结题
+
+                        <li> 湖南省自然科学基金面上项目，2020JJ4567，数据驱动的广义 Stiefel 流形约束二次优化问题算法及其应用研究，2020/01-2023/12, 5.0万元，在研
+					</ul>
+
+					<br>
+					<li><h5>Involved Projects:</h5>
+					<ul>
+						<li> 国家自然科学基金青年科学基金项目，11326190， 基于半周长线长的VLSI布局模型及其算法研究，第一参与人，2014/01-2016/12，结题
+
+						<li> 国家自然科学基金面上项目，61170308，超大规模集成电路布局的ell-1模优化模型及其算法研究，第一参与人，2012/01-2015/12，结题
+
+						<li> 国家自然科学基金面上项目，11871153，高维数据驱动稀疏低秩优化问题有效算法的研究及其应用，第一参与人，2019/01 – 2022/12，在研
+
+						<li> 国家自然科学基金面上项目，61977017，先进制程技术下的VLSI混合行高单元布局研究，第一参与人，2020/01 – 2023/12， 在研
+
+						<li> 国家自然科学基金天元项目，11526202，超大规模集成电路物理设计自动化中的图论与优化算法，2016/01 – 2016/12，结题 
+					</ul>
+
+
+
+				</ul>
+			</div>
+		</div>
+		<!--项目介绍结束-->
+
+		<!--社会荣誉介绍开始-->
+        <div class="grid3-year"> <h3> Major Awards & Honors </h3> </div>
+		<div class="grid3">
+			<div class="grid3-content">
+				<ul>
+
+                <li> 湖南省运筹学会副理事长
+                <li> 中国运筹学会理事
+                <li> 2020年10月获中国运筹学会科学技术奖—运筹应用奖
+
+				</ul>
+			</div>
+		</div>
+		<!--社会荣誉介绍结束-->
+
+
+
+	</div>
+	<!--主要内容结束-->
+
+	<div class="footer">
+		<p>Homepage of Zheng Peng</p>
+	</div>
+
+	</body>
+</html>
+
